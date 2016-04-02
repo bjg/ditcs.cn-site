@@ -17,7 +17,7 @@ title = "D7ET Programming Lessons"
 	# For more informtion take a look at the README.
 
 	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
+    	# information about you and your website.
 	description = "Dublin 7 Educate Together Programming Lessons"
 
 	# The path must be relative to the static folder
@@ -43,7 +43,7 @@ title = "D7ET Programming Lessons"
 	# About section
 	[params.about]
 		headline    = "Build a fun game for the web"
-		description = "Since 2013, parent volunteers have been offering computer programming as an afterschool activity. The lessons are available to 4th class pupils, or higher,  and emphasise learning as fun and an opportunity for creativity. This initiative has successfully led to the introduction of Scratch and Sctatch Jnr programming into the main class curriculum in 2015. From now until May 2016, students will build a fun game for the web."
+		description = "Since 2013, parent volunteers have been offering computer programming as an afterschool activity. The lessons are available to 4th class pupils, or higher,  and emphasise learning as fun and an opportunity for creativity. This initiative has successfully led to the introduction of Scratch and Sctatch Jnr programming into the main class curriculum for all pupils at the school since 2015. For the Spring 2016 term, students will learn how to build a fun game for the web over a series of weeks."
 		buttonText  = "What can I learn?"
 
 
@@ -55,7 +55,14 @@ title = "D7ET Programming Lessons"
             icon = "fa-file"
             title = "Lesson one"
             description = "Introduction to the course content and the tools and technologies you will learn how to use"
-			link = "/doc/d7et-asp-lesson-1.pdf"
+	    link = "/doc/ProgrammingfortheWeb-Week1.pdf"
+
+        [[params.lessons.list]]
+            icon = "fa-file"
+            title = "Lesson two"
+            description = "Continue building the game by setting up the main elements using HTML and Javascript drawing primitives"
+	    link = "/doc/ProgrammingfortheWeb-Week2.pdf"
+
 
     # Aside section
 	[params.aside]
