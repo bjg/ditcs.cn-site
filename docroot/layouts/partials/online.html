@@ -1,0 +1,23 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<section class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+			<h2>{{ with .Site.Params.online.headline }}{{ . }}{{ end }}</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            {{ range .Site.Params.online.list }}
+            <div class="col-lg-6 col-md-12 text-center">
+                <div class="courses-box">
+					<i class="fa fa-2x {{ .icon }} text-primary"></i>
+                    <h4>{{ .title }}</h4>
+					<video width="320" height="180" controls>
+						<source src="doc/{{ .video }}.mp4" type="video/mp4">
+					</video>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

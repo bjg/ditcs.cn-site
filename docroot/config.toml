@@ -1,6 +1,6 @@
-baseurl = "http://d7et.dicse.re/doc/"
+baseurl = "https://ditcs.cn"
 languageCode = "en-us"
-title = "D7ET Programming Lessons"
+title = "DIT School of Computing"
 
 [params]
 
@@ -17,62 +17,96 @@ title = "D7ET Programming Lessons"
 	# For more informtion take a look at the README.
 
 	# To provide some metadata for search engines feel free to add a few
-    	# information about you and your website.
-	description = "Dublin 7 Educate Together Programming Lessons"
+	# information about you and your website.
+	description = "Dublin Institute of Technology, School of Computing (China)"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
 	# Navigation
 	[params.navigation]
-		brand = "D7ET Programming Lessons"
+		brand = "DIT School of Computing"
 
-		[params.navigation.links]
-			about     = "About"
-			lessons   = "Lessons"
-			contact   = "Contact"
+	[params.navigation.links]
+		about     = "About"
+		courses   = "Courses"
+		contact   = "Contact"
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Learn to program after school!"
-		subtitle   = "Dublin 7 Educate Together National School is now offering advanced programming lessons for pupils as an afterschool activity"
+		slogan     = "Study in Ireland at the DIT"
+		subtitle   = "The Dublin Institute of Technology School of Computing is inviting prospective undergraduate and postgraduate students from China to enroll in one of the Bachelors, Masters or Doctoral degree programs for 2016-2017"
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
-		headline    = "Build a fun game for the web"
-		description = "Since 2013, parent volunteers have been offering computer programming as an afterschool activity. The lessons are available to 4th class pupils, or higher,  and emphasise learning as fun and an opportunity for creativity. This initiative has successfully led to the introduction of Scratch and Sctatch Jnr programming into the main class curriculum for all pupils at the school since 2015. For the Spring 2016 term, students will learn how to build a fun game for the web over a series of weeks."
-		buttonText  = "What can I learn?"
+		headline    = "Why the DIT School of Computing?"
+		description = "<dl><p>Located in the heart of Ireland’s capital city, Dublin Institute of Technology provides an innovative, responsive and caring learning environment for a diverse range and level of programmes to students of all ages and backgrounds. By combining small teaching groups, great courses and experienced teaching staff along with our city centre location, you will soon see why DIT is the best place you can go to college.</p> <p>The School of Computing is the largest of its kind in Ireland. It offers professionally-oriented undergraduate, postgraduate and PhD programmes which are characterised by strong industry engagement through internships, industry projects and industry accreditation. The primary activity is in teaching programmes with a professional and practical focus, that are highly relevant to the needs of the workplace.</p> <p>The School aims to ensure that students have a rich and authentic learning experience based on solving real world problems, thereby ensuring that graduates are equipped with the knowledge and skills necessary to adapt and thrive in a knowledge economy. The curriculum and delivery methods have evolved to meet the needs of the sectors we serve</p><p>International students may join programs at different starting points, depending on the course and their prior learning achievements.</p></dl>"
+		buttonText  = "What courses can I take?"
 
 
-	# Lessons section
-	[params.lessons]
-		headline = "Weekly worksheets"
+	# Courses section
+	[params.courses]
+		headline = "School of Computing Courses"
 
-        [[params.lessons.list]]
+        [[params.courses.list]]
             icon = "fa-file"
-            title = "Lesson one"
-            description = "Introduction to the course content and the tools and technologies you will learn how to use"
-	    link = "/doc/ProgrammingfortheWeb-Week1.pdf"
+            title = "B.Sc. Computer Science"
+            description = "This programme is a four year, full time, modular, honours degree programme. It aims to provide graduates with a comprehensive knowledge and understanding of computer science as well as practical problem solving and software engineering skills. The primary aim of the programme is to produce graduates with the necessary knowledge and skills to perform as ICT practitioners in a broad range of commercial, industrial and public sector environments"
+			link = "/doc/bsccomputerscience.pdf"
 
-        [[params.lessons.list]]
+        [[params.courses.list]]
             icon = "fa-file"
-            title = "Lesson two"
-            description = "Continue building the game by setting up the main elements using HTML and Javascript drawing primitives"
-	    link = "/doc/ProgrammingfortheWeb-Week2.pdf"
+            title = "B.Sc. Computer Science (Infrastructure)"
+            description = "This programme is a four year, full time, modular, honours degree programme. The main aim of the programme is to produce graduates with the necessary skills to function as IT developers and network and system support staff in a broad range of commercial and industrial environments. The focus of the programme is to enable the graduate to apply networked solutions in organisational IT environments."
+			link = "/doc/bsccsinfrastructure.pdf"
 
+        [[params.courses.list]]
+            icon = "fa-file"
+            title = "B.Sc. Computer Science (International)"
+            description = "This programme is a four year, full time, modular, honours degree programme and is designed as a four-year honours degree in core computing & programming skills with a key international and globalisation focus. It offers graduates highly sought IT industry skills including internationalisation, a foreign language, as well as a very strong aptitude for IT. The foreign languages currently taught in this programme are Chinese and German"
+			link = "/doc/"
 
-    # Aside section
-	[params.aside]
-		headline = "Take me to the development site"
+        [[params.courses.list]]
+            icon = "fa-file"
+            title = "CPD International Pre-Masters Programme"
+            description = "This programme is designed to provide an entry path for Bachelors Honours graduates in other numerate disciplines into graduate entry level careers in computing. The philosophy behind the programme is that graduates from other disciplines will have developed significant transferable skills in analysis, communications and independent learning"
+			link = "/doc/"
 
-		[params.aside.button]
-			text = "Let's code!"
-			link = "//d7et.disce.re/jsbin"
+        [[params.courses.list]]
+            icon = "fa-file"
+            title = "M.Sc. in Computing"
+            description = "The School of Computing offers a number of specialist programmes designed to meet areas of recognised skills globally. All specialisms are designed to produce graduates with deep specialist skills in a particular computing discipline, relying on connecting the best theory with the best practical implementation of this theory through the use of real-world examples.  The specialisms currently available are Advanced Software Development, Data Analytics or Security & Forensics"
+			link = "/doc/mscprogramme.zip"
+
+    # Online examples section
+	[params.online]
+		headline = "Sample modules from the cirriculum"
+
+        [[params.online.list]]
+            icon = "fa-video-camera"
+			title = "Flipped Classroom"
+			video = "flippedclassroom"
+
+        [[params.online.list]]
+            icon = "fa-video-camera"
+			title = "Cloud Computing"
+			video = "cloudcomputing"
+
+        [[params.online.list]]
+            icon = "fa-video-camera"
+			title = "Algorithm Complexity"
+			video = "algorithms"
+
+        [[params.online.list]]
+            icon = "fa-video-camera"
+			title = "Digital Logic"
+			video = "digitallogic"
 
 	# Contact section
 	[params.contact]
 		headline = "Need more information?"
-		description = "Contact us through the school and we will get back to you as soon as possible!"
+		description = "If you are interested in enrolling on a course or would like more information, please contact us directly by email"
+		email = "mailto:yupeng.liu@dit.ie"
