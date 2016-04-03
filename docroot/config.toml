@@ -55,31 +55,31 @@ title = "DIT School of Computing"
             icon = "fa-file"
             title = "B.Sc. Computer Science"
             description = "This programme is a four year, full time, modular, honours degree programme. It aims to provide graduates with a comprehensive knowledge and understanding of computer science as well as practical problem solving and software engineering skills. The primary aim of the programme is to produce graduates with the necessary knowledge and skills to perform as ICT practitioners in a broad range of commercial, industrial and public sector environments"
-			link = "/doc/bsccomputerscience.pdf"
+			link = "bsccomputerscience.pdf"
 
         [[params.courses.list]]
             icon = "fa-file"
             title = "B.Sc. Computer Science (Infrastructure)"
             description = "This programme is a four year, full time, modular, honours degree programme. The main aim of the programme is to produce graduates with the necessary skills to function as IT developers and network and system support staff in a broad range of commercial and industrial environments. The focus of the programme is to enable the graduate to apply networked solutions in organisational IT environments."
-			link = "/doc/bsccsinfrastructure.pdf"
+			link = "bsccsinfrastructure.pdf"
 
         [[params.courses.list]]
             icon = "fa-file"
             title = "B.Sc. Computer Science (International)"
             description = "This programme is a four year, full time, modular, honours degree programme and is designed as a four-year honours degree in core computing & programming skills with a key international and globalisation focus. It offers graduates highly sought IT industry skills including internationalisation, a foreign language, as well as a very strong aptitude for IT. The foreign languages currently taught in this programme are Chinese and German"
-			link = "/doc/"
+			link = ""
 
         [[params.courses.list]]
             icon = "fa-file"
             title = "CPD International Pre-Masters Programme"
             description = "This programme is designed to provide an entry path for Bachelors Honours graduates in other numerate disciplines into graduate entry level careers in computing. The philosophy behind the programme is that graduates from other disciplines will have developed significant transferable skills in analysis, communications and independent learning"
-			link = "/doc/"
+			link = ""
 
         [[params.courses.list]]
             icon = "fa-file"
             title = "M.Sc. in Computing"
             description = "The School of Computing offers a number of specialist programmes designed to meet areas of recognised skills globally. All specialisms are designed to produce graduates with deep specialist skills in a particular computing discipline, relying on connecting the best theory with the best practical implementation of this theory through the use of real-world examples.  The specialisms currently available are Advanced Software Development, Data Analytics or Security & Forensics"
-			link = "/doc/mscprogramme.zip"
+			link = "mscprogramme.zip"
 
     # Online examples section
 	[params.online]

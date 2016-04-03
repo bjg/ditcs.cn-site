@@ -10,13 +10,14 @@
     </div>
     <div class="container">
         <div class="row">
+			{{ $ctx := . }}
             {{ range .Site.Params.courses.list }}
             <div class="col-lg-4 col-md-6 text-center">
                 <div class="courses-box">
 					<i class="fa fa-2x {{ .icon }} wow bounceIn text-primary"></i>
                     <h3>{{ .title }}</h3>
                     <p class="text-muted">{{ .description }}</p>
-					<a class="btn btn-default btn-xl wow tada" href="{{ .link }}">Download Details</a>
+					<a class="btn btn-default btn-xl wow tada" href="{{ $ctx.Site.BaseURL }}doc/{{ .link }}">Download Details</a>
                 </div>
             </div>
             {{ end }}
